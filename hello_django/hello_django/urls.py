@@ -20,5 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', views.about),
     path('home/', views.home),
-    path('reverse', views.reverse)
+    path('reverse/', views.reverse)
 ]
